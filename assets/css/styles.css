@@ -1,0 +1,117 @@
+:root {
+    --primary-color:#5A473A;
+    --strong-color:#352a2a;
+    --base-color:#8b7e75;
+    --accent-color:#B5A6A6;
+    --blue-color:#3D85C6;
+    --gap: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.3rem;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    color:var(--strong-color) ;
+}
+
+h1{
+    font-size: 5.5rem;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-bg{
+    background-image: url(/assets/img/main-bg.svg);
+    background-position: center center;
+}
+
+.base-bg{
+    background-color: var(--base-color);
+}
+
+.primary-bg{
+    background-color: var(--primary-color);
+}
+
+.primary-bg h2{
+    color: var(--base-color);
+}
+
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section{
+    min-height: 100vh;
+}
+
+.menu{
+    background-color: var(--strong-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-bottom:0.2rem solid rgba(0, 0, 0, 0.233);
+}
+
+.menu h1 img{
+    width: 31.1rem;
+    height:6.9rem;
+    margin-top: 2rem;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 2rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+    color:var(--blue-color);
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.signIn{
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+}
+
+.signIn:hover{
+    text-decoration: underline;
+}
