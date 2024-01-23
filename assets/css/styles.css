@@ -33,14 +33,19 @@ h1{
 
 h2{
     font-size: 5rem;
+    font-weight: 900;
 }
 
 a{
     text-decoration: none;
 }
 
+p{
+    font-size: 2.7rem;
+}
+
 .main-bg{
-    background-image: url(/assets/img/main-bg.svg);
+    background-image: url(../img/main-bg.svg);
     background-position: center center;
 }
 
@@ -54,6 +59,10 @@ a{
 
 .primary-bg h2{
     color: var(--base-color);
+}
+
+.base-main-bg{
+    background-image: url(../img/base-main-bg.svg);
 }
 
 .main-content{
@@ -74,11 +83,12 @@ a{
     right: 0;
     width: 100%;
     border-bottom:0.2rem solid rgba(0, 0, 0, 0.233);
+    z-index: 3;
 }
 
 .menu h1 img{
-    width: 31.1rem;
-    height:6.9rem;
+    width: 29.1rem;
+    height:5.9rem;
     margin-top: 2rem;
 }
 
@@ -96,7 +106,7 @@ a{
 }
 
 .menu ul li a:hover{
-    text-decoration: underline;
+    text-decoration:overline;
 }
 
 .menu-content{
@@ -112,6 +122,73 @@ a{
     border-radius: 2rem;
 }
 
-.signIn:hover{
-    text-decoration: underline;
+.menu .signIn:hover{
+    background-color:#42342b ;
+    text-decoration: none;
+}
+
+.menu-spacing{
+    height: 6.1rem;
+    background-image: url(../img/main-bg.svg);
+}
+
+.intro{
+    display:flex;
+    align-items: center;
+}
+
+.intro-content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: 80vh;
+    background-image: url(../img/base-secondary-bg.svg);
+}
+
+.intro-text-content, .intro-img{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-text-content h2{
+    font-size: 8rem;
+    margin-bottom: 5rem;
+}
+
+.intro-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.difer{
+    display: flex;
+    align-items: center;
+}
+
+.difer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    height: 80vh;
+}
+
+.difer-text-content, .difer-img{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.difer-text-content h2{
+    font-size: 8rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.difer-img img{
+    max-width: 100%;
+    height: auto;
 }
