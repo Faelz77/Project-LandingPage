@@ -36,4 +36,4 @@ LINK LANDING PAGE
 
 Rafael Oliveira Venancio
 
-https://www.linkedin.com/in/rafael-oliveira-venancio-6904122a6
+www.linkedin.com/in/rafaelvnc
